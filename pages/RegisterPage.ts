@@ -34,6 +34,7 @@ export class RegisterPage {
     await this.page.locator('[id="customer.phoneNumber"]').fill(data.phoneNumber);
     await this.page.locator('[id="customer.ssn"]').fill(data.ssn);
 
+    
     await this.page.locator('[id="customer.username"]').fill(username);
     await this.page.locator('[id="customer.password"]').fill(password);
     await this.page.locator("#repeatedPassword").fill(password); 

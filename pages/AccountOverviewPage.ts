@@ -3,6 +3,7 @@ import { Page } from '@playwright/test';
 export class AccountOverviewPage {
   constructor(private page: Page) {}
 
+  
   async getBalance() {
     await this.page.waitForSelector('#accountTable', { state: 'visible' });
 
