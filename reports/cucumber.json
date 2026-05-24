@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 965266500
+              "duration": 842155100
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 3,
             "name": "User launches parabank application",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:22"
+              "location": "features\\step-definitions\\signup.steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 3563725900
+              "duration": 1968282299
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 4,
             "name": "User registers a new account",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:28"
+              "location": "features\\step-definitions\\signup.steps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1317797999
+              "duration": 1366026200
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 5,
             "name": "User logs in with created credentials",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:35"
+              "location": "features\\step-definitions\\signup.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 1719812300
+              "duration": 1774681700
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 6,
             "name": "User should see account overview page",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:42"
+              "location": "features\\step-definitions\\signup.steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 53025200
+              "duration": 57490700
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 7,
             "name": "User prints account balance",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:47"
+              "location": "features\\step-definitions\\signup.steps.ts:46"
             },
             "result": {
               "status": "passed",
-              "duration": 523125099
+              "duration": 527572500
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 555905699
+              "duration": 538643799
             }
           }
         ],
