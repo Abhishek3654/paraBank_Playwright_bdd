@@ -7,7 +7,7 @@ import { AccountOverviewPage } from '../../pages/AccountOverviewPage';
 import testData from '../../testData/userData.json'
 
 Before(async function () {
-  this.browser = await chromium.launch({ headless: false });
+  this.browser = await chromium.launch({ headless: true });
   this.page = await this.browser.newPage();
   this.username = `user${Date.now()}`;
   this.password = 'Test@123';
