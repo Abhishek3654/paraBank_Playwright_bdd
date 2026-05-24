@@ -6,7 +6,7 @@
         "description": "",
         "id": "parabank-sign-up-and-login;user-creates-account-and-logs-in-successfully",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 2,
         "name": "User creates account and logs in successfully",
         "steps": [
           {
@@ -14,72 +14,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 815664199
+              "duration": 965266500
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 3,
             "name": "User launches parabank application",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:23"
+              "location": "features\\step-definitions\\signup.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2129065000
+              "duration": 3563725900
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 4,
             "name": "User registers a new account",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:29"
+              "location": "features\\step-definitions\\signup.steps.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 1171642300
+              "duration": 1317797999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 5,
             "name": "User logs in with created credentials",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:36"
+              "location": "features\\step-definitions\\signup.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 1745873700
+              "duration": 1719812300
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 6,
             "name": "User should see account overview page",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:43"
+              "location": "features\\step-definitions\\signup.steps.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 78545300
+              "duration": 53025200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 7,
             "name": "User prints account balance",
             "match": {
-              "location": "features\\step-definitions\\signup.steps.ts:48"
+              "location": "features\\step-definitions\\signup.steps.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 448362800
+              "duration": 523125099
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 564484400
+              "duration": 555905699
             }
           }
         ],

@@ -1,12 +1,10 @@
-import { Given, When, Then, Before, After, setDefaultTimeout } from '@cucumber/cucumber';
+import { Given, When, Then, Before, After } from '@cucumber/cucumber';
 import { chromium } from '@playwright/test';
 import { expect } from '@playwright/test';
 import { RegisterPage } from '../../pages/RegisterPage';
 import { LoginPage } from '../../pages/LoginPage';
 import { AccountOverviewPage } from '../../pages/AccountOverviewPage';
 import testData from '../../testData/userData.json'
-
-setDefaultTimeout(60000);
 
 Before(async function () {
   this.browser = await chromium.launch({ headless: false });
