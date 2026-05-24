@@ -1,6 +1,5 @@
 import { Page } from '@playwright/test';
 
-// ✅ Interface matches test-data.json exactly
 interface UserData {
   firstName: string;
   lastName: string;
@@ -23,7 +22,6 @@ export class RegisterPage {
     await this.page.click('text=Register');
   }
 
-  // ✅ Accepts username, password, and testData object — no undefined variables
   async registerUser(username: string, password: string, data: UserData) {
     await this.page.locator('[id="customer.firstName"]').fill(data.firstName);
     await this.page.locator('[id="customer.lastName"]').fill(data.lastName);
@@ -34,7 +32,7 @@ export class RegisterPage {
     await this.page.locator('[id="customer.phoneNumber"]').fill(data.phoneNumber);
     await this.page.locator('[id="customer.ssn"]').fill(data.ssn);
 
-    
+
     await this.page.locator('[id="customer.username"]').fill(username);
     await this.page.locator('[id="customer.password"]').fill(password);
     await this.page.locator("#repeatedPassword").fill(password); 
