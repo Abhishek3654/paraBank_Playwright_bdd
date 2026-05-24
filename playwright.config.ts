@@ -10,6 +10,7 @@ export default defineConfig({
      baseURL: 'https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC',
     screenshot:'on-first-failure',
     trace: 'on-first-retry',
+    headless: true
   },
 
   /* Configure projects for major browsers */
